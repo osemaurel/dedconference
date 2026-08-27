@@ -37,7 +37,9 @@ python3 -m http.server 8000
 2. **`[URL_ABSOLUE_DE_L_IMAGE_DE_PARTAGE]`** — 2 occurrences (`og:image`, `twitter:image`).
    Déposer l'image 1200x630 px dans `public/images/og-share.jpg`, puis mettre l'**URL absolue**
    (`https://tondomaine.com/public/images/og-share.jpg`). WhatsApp ignore les chemins relatifs.
-3. **Meta Pixel** — emplacement commenté dans le `<head>` de `index.html`.
+3. ~~Meta Pixel~~ — **fait.** Pixel `2467456657098160` actif : `PageView` au chargement,
+   et un événement `Lead` à chaque clic sur un bouton, avec l'emplacement du bouton
+   (`hero`, `apprendre`, `temoignages`, `final`) en `content_category`.
 4. **Google Analytics** — emplacement commenté dans le `<head>` de `index.html`.
 5. **`mentions-legales.html`** et **`confidentialite.html`** — tous les `[À COMPLÉTER]`.
 
