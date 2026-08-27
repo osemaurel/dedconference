@@ -32,11 +32,8 @@ python3 -m http.server 8000
 
 ## À REMPLIR AVANT MISE EN LIGNE
 
-1. **`[LIEN_WHATSAPP_À_REMPLIR]`** — 4 occurrences dans `index.html` (les 4 boutons CTA).
-   Remplacer par le lien d'invitation de la communauté.
-   ```bash
-   sed -i 's|\[LIEN_WHATSAPP_À_REMPLIR\]|https://chat.whatsapp.com/XXXX|g' index.html
-   ```
+1. ~~Lien WhatsApp~~ — **fait.** Les 4 boutons pointent vers
+   `https://whatsapp.com/channel/0029VaZIERGHVvTWwpAVS31e` (chaîne « Free-lanceur 2.0 »).
 2. **`[URL_ABSOLUE_DE_L_IMAGE_DE_PARTAGE]`** — 2 occurrences (`og:image`, `twitter:image`).
    Déposer l'image 1200x630 px dans `public/images/og-share.jpg`, puis mettre l'**URL absolue**
    (`https://tondomaine.com/public/images/og-share.jpg`). WhatsApp ignore les chemins relatifs.
