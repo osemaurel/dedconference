@@ -44,3 +44,12 @@ python3 -m http.server 8000
 ## Tracking des boutons
 
 Chaque CTA porte un attribut `data-cta` : `hero`, `apprendre`, `temoignages`, `final`.
+
+## Pourquoi `vercel.json` est indispensable
+
+Le dépôt contient un dossier `public/`. Sans configuration, Vercel le prend
+automatiquement pour le résultat d'une construction et publie **son contenu**
+comme racine du site : `index.html` disparaît et toutes les pages renvoient 404.
+
+`"outputDirectory": "."` force Vercel à servir la racine du dépôt.
+**Ne pas supprimer ce fichier.**
