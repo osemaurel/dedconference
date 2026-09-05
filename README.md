@@ -1,6 +1,6 @@
 # Masterclass — page de capture
 
-Page de capture statique pour la masterclass gratuite du **samedi 5 septembre 2026, 20h00 GMT+1**
+Page de capture statique pour la masterclass gratuite du **samedi 12 septembre 2026, 20h00 GMT+1**
 animée par Déodat CAPO-CHICHI. Objectif unique : le clic sur le bouton CTA.
 
 ## Contenu
